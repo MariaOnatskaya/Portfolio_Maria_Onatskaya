@@ -1,14 +1,14 @@
-# Разработка модели оценки риска ДТП (SQL)
+# Traffic Accident Risk Assessment Model Development (SQL)
 
-## Описание:
-Разработала и обучила модель для предсказания вероятности ДТП на основе исторических данных, с учетом условий Заказчика.
+## Description:  
+Developed and trained a model to predict the probability of traffic accidents based on historical data while considering the Client’s requirements.  
 
-## Основные достижения:
-- Отобраны ключевые признаки, влияющие на риск ДТП, включая возраст автомобиля, погодные условия, дорожное покрытие и время суток.
-- Проведен анализ сезонности ДТП, выявлены основные причины аварий, такие как превышение скорости, нарушение правил поворота и вождение в состоянии опьянения.
-- Обучены и протестированы несколько моделей, включая DecisionTreeClassifier, RandomForestClassifier, CatBoostClassifier и LGBMClassifier.
-- Наилучшие результаты достигнуты с LGBMClassifier (recall: 83%, F1-score: 66%).
-- Разработаны рекомендации по снижению аварийности: ограничители скорости, навигаторы с предупреждениями, анализаторы алкогольного опьянения и база данных ДТП.
+## Key Achievements:  
+- Selected key factors influencing accident risk, including vehicle age, weather conditions, road surface, and time of day.  
+- Conducted a seasonality analysis of traffic accidents and identified major causes such as speeding, improper turns, and driving under the influence.  
+- Trained and tested multiple models, including DecisionTreeClassifier, RandomForestClassifier, CatBoostClassifier, and LGBMClassifier.  
+- Achieved the best results with LGBMClassifier (recall: 83%, F1-score: 66%).  
+- Developed recommendations for accident prevention, including speed limiters, navigation alerts, alcohol impairment detection systems, and an accident database.  
 
-## Инструменты: 
+## Tools:  
 SQLAlchemy, Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, LightGBM, XGBoost, CatBoost, Pipeline, GridSearchCV, RandomizedSearchCV, F1-score, Accuracy, Recall, Precision.
