@@ -1,14 +1,14 @@
-# Разработка модели прогнозирования количества заказов такси (Time Series)
+# Taxi Order Demand Forecasting Model (Time Series)
 
-## Описание:
-Разработала и обучила модель для прогнозирования количества заказов такси на следующий час на основе предоставленного размеченного датасета.
+## Description:
+Developed and trained a model to forecast the number of taxi orders for the next hour based on a provided labeled dataset.
 
-## Основные достижения:
-- Построила базовые прогнозы (на основе среднего значения и предыдущего значения ряда) для проверки адекватности моделей.
-- Обучила 6 моделей машинного обучения, включая LinearRegression, DecisionTreeRegressor, KNeighborsRegressor, LightGBM, XGBoost и CatBoost.
-- Разработала и обучила нейронную сеть для предсказания количества заказов.
-- Для всех моделей (кроме линейной регрессии) провела подбор гиперпараметров с использованием GridSearchCV.
-- По результатам экспериментов нейронная сеть показала наилучшие результаты в точности прогнозирования.
-  
-## Инструменты: 
+## Key Achievements:
+- Built baseline forecasts (based on the mean value and previous value of the series) to assess model adequacy.  
+- Trained six machine learning models, including LinearRegression, DecisionTreeRegressor, KNeighborsRegressor, LightGBM, XGBoost, and CatBoost.  
+- Developed and trained a neural network to predict the number of orders.  
+- Performed hyperparameter tuning using GridSearchCV for all models except linear regression.  
+- Experimental results showed that the neural network achieved the highest forecasting accuracy.  
+
+## Tools:  
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, PyTorch, LightGBM, XGBoost, CatBoost, Pipeline, GridSearchCV, TimeSeriesSplit.
